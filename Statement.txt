@@ -1,0 +1,18 @@
+# Project Statement: SCHOLAR-SYNC
+
+## Problem Statement 
+The current grade and enrollment management processes often lack immediate data-driven insights and a modular organization. This project addresses the need for a basic, unified system to record student scores efficiently, calculate class performance metrics, and automate grade retrieval, while demonstrating a modular code structure and the application of data analysis methods.
+
+## Scope of the Project 
+The system is a command-line interface (CLI) application with **in-memory storage**; data is not persistent across runs.
+* **Included**: Role-based authentication, grade input, individual reporting, class average/std dev calculation, and set-based enrollment analysis.
+* **Excluded**: Database persistence (ER Diagram is not strictly applicable), full GPA logic (uses placeholder value 3.5), and extensive unit testing.
+
+## Target Users 
+* **Teachers/Faculty**: The primary users for data input (grades) and statistical analysis (class average, standard deviation, enrollment sets).
+* **Students**: Users accessing their records, scores, letter grades, and GPA summary.
+
+## High-Level Features 
+* Teacher-controlled data entry and advanced class analysis.
+* Object-Oriented design using `User` and `Student` classes.
+* Demonstration of set theory (`union`, `difference`) and combination generation (`itertools`).
