@@ -1,18 +1,21 @@
-# Project Statement: SCHOLAR-SYNC
-
-## Problem Statement 
-The current grade and enrollment management processes often lack immediate data-driven insights and a modular organization. This project addresses the need for a basic, unified system to record student scores efficiently, calculate class performance metrics, and automate grade retrieval, while demonstrating a modular code structure and the application of data analysis methods.
-
-## Scope of the Project 
-The system is a command-line interface (CLI) application with **in-memory storage**; data is not persistent across runs.
-* Included: Role-based authentication, grade input, individual reporting, class average/std dev calculation, and set-based enrollment analysis.
-* Excluded: Database persistence (ER Diagram is not strictly applicable), full GPA logic (uses placeholder value 3.5), and extensive unit testing.
-
-## Target Users 
-* Teachers/Faculty: The primary users for data input (grades) and statistical analysis (class average, standard deviation, enrollment sets).
-* Students: Users accessing their records, scores, letter grades, and GPA summary.
-
-## High-Level Features 
-* Teacher-controlled data entry and advanced class analysis.
-* Object-Oriented design using `User` and `Student` classes.
-* Demonstration of set theory (`union`, `difference`) and combination generation (`itertools`).
+Problem Statement
+The challenge addressed by SCHOLAR-SYNC is the inherent inefficiency and potential for error in the manual processes related to managing student academic data. Specifically, the system resolves the need for automated record keeping, reliable class statistical calculations, and systematic generation of project team combinations.
+Scope of the Project
+The SCHOLAR-SYNC project is a focused, command-line application that prioritizes the implementation of core subject concepts related to data structures and processing logic.
+Inclusions:
+Implementation of two distinct user roles (Teacher and Student) with specific functionalities.
+Simulation of data persistence using in-memory dictionaries.
+Integration of statistical functions (average, standard deviation) and combinatorial algorithms.
+Exclusions:
+Does not feature a Graphical User Interface (GUI).
+Does not utilize a formal relational database management system (RDBMS).
+Excludes complex network communication or integration with external APIs.
+Target Users
+Teachers/Instructors: Primary users responsible for data integrity, entering and modifying student grades, and accessing class-level analytical reports.
+Students: Secondary users who interact with the system to view their personal academic records and GPA summary.
+High-Level Features
+Role-Based Authentication and Access Control
+Grade Management (Create/Update)
+Class Statistical Reporting (Averages, Standard Deviation)
+Enrollment Set Operations
+Project Team Combination Generator
